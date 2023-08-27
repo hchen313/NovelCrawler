@@ -4,7 +4,7 @@ A novel crawler that fetches text from the novel website and download it as txt 
 
 ## FYI 
 
-This project was designed and tested for [https://www.tasim.net/](https://www.tasim.net/)
+This project was designed and tested for [https://www.biquge.co/](https://www.biquge.co/)
 
-## How to Use 
+## How To Use 
 
