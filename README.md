@@ -12,4 +12,4 @@ For example, we are trying to download [this](https://www.biquge.co/9_9443/) boo
 
 First, we run the program and enter the link as prompted. 
 
-[/img/init.png]
+[/assets/img/init.png]
