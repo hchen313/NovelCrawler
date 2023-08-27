@@ -8,4 +8,8 @@ This project was designed and tested for [https://www.biquge.co/](https://www.bi
 
 ## How To Use 
 
+For example, we are trying to download [this](https://www.biquge.co/9_9443/) book. 
 
+First, we run the program and enter the link as prompted. 
+
+/img/init.png
