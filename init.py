@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
 import requests
 from lxml import etree
 from multiprocessing import Pool
+import re
 
-# only tested for https://www.tasim.net/
+# only tested for https://www.biquge.co/
 
 
 #  single chapter download
@@ -11,8 +11,9 @@ def download(args):
     try:
         title, url= args
         page= requests.get(url)
+        page.encoding= page.apparent_encoding
         page_content= etree.HTML(page.text)
-        text= page_content.xpath("//div[@id='chaptercontent']/text()")
+        text= page_content.xpath("//div[@id='content']/text()")
         return [(line, title) for line in text]
     except:
         print("fail to download:" + title )
@@ -22,8 +23,10 @@ if __name__ == "__main__":
 
     url= input("Enter the link:\n")
     r= requests.get(url)
-    content= etree.HTML(r.text)
-    list= content.xpath("//div[@class='listmain']/dl/dt/following::dd")
+    r.encoding= r.apparent_encoding
+    content = etree.HTML(r.text)
+    list= content.xpath("//div[@id='list']/dl/dt[2]/following::dd")
+
 
     # find the main page link, find the 3rd occurrence of /
     val= -1
@@ -45,5 +48,7 @@ if __name__ == "__main__":
                         file.write(title)  # Write the title
                         file.write("\n")
                         title_written = True
-                    file.write(line)
+                    # remove all the non-chinese characters
+                    new_line= re.sub(r'[^\u4e00-\u9fff]+', '', line)
+                    file.write(new_line)
                     file.write("\n")
