@@ -20,7 +20,7 @@ For example, we are trying to download [this](https://www.biquge.co/9_9443/) boo
 
 <img src="\img\discord.png" alt= "ScreenShot">
 
-* Now you can open the .txt using a Novel Reader App. I recommend QQ阅读, as it was only App tested. 
+* Now you can open the .txt using a Novel Reader App. I recommend QQ阅读, as it was the only App tested. 
 
 <img src="\img\open.jpg" alt= "ScreenShot" width="200" height="400">
 
