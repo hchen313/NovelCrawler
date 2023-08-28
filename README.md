@@ -22,6 +22,6 @@ For example, we are trying to download [this](https://www.biquge.co/9_9443/) boo
 
 * Now you can open the .txt using a Novel Reader App. I recommend QQ阅读, as it was only App tested. 
 
-<img scr="/img/open.jpg" width="400" height="600">
+<img scr="/img/open.jpg" alt= "open" width="400" height="600">
 
 <img scr="/img/open.PNG" width="400" height="600">
