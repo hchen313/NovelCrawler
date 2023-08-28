@@ -12,16 +12,16 @@ For example, we are trying to download [this](https://www.biquge.co/9_9443/) boo
 
 * First, we run the program and enter the link as prompted. 
 
-![ScreenShot](/img/init.png)
+<img scr="/img/init.png">
 
 * Then a text.txt file will appear within the same folder of the program. 
 
 * Then you can sent the .txt file to your phone using various ways, for ex., discord. 
 
-![ScreenShot](/img/discord.png)
+<img scr="/img/discord.png">
 
 * Now you can open the .txt using a Novel Reader App. I recommend QQ阅读, as it was only App tested. 
 
-![ScreenShot](/img/open.jpg =100x200)
+<img scr="/img/open.jpg" width="400" height="600">
 
-![ScreenShot](/img/read.PNG)
+<img scr="/img/open.PNG" width="400" height="600">
